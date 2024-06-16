@@ -65,7 +65,7 @@ with st.sidebar:
     use_existing_vector_store = st.radio("Use existing vector store if available", ["Yes", "No"], horizontal=True)
 
 # Path to the vector store file
-vector_store_path = "index.pkl"
+vector_store_path = "vectorstore.pkl"
 
 # Load raw documents from the directory
 raw_documents = DirectoryLoader(DOCS_DIR).load()
